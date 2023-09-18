@@ -1,0 +1,19 @@
+:root {
+    /* FONTES */
+    --font-title-header: ;
+    --font-title-article: ;
+    --font-para-article: ;
+
+    /* CORES */
+    --corVermelha: #aa0014;
+    --corAmarela: #dbd400;
+    --corVerde01: #34db25;
+    --corVerde02: #2f5C2b;
+    --corAzul01: #07618b;
+    --corAzul02: #1699db;
+    --corLaranja01: rgb(252, 50, 16);
+    --corLaranja02: rgb(252, 100, 16);
+    --corLaranja03: rgb(252, 135, 16);
+    --cor01: ;
+    --cor02: ;
+}

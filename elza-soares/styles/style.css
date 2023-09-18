@@ -1,0 +1,88 @@
+@import "style-roots.css";
+
+body {
+    background-color: var(--corVermelha);
+}
+
+/* header */
+header {
+    /* border: 1px solid #ff0; */
+
+    display: flex;
+    justify-content: space-around;
+
+    padding: 35px 0;
+}
+header h1 {
+    text-align: center;
+
+    background-color: var(--corLaranja02);
+
+    font-size: 2.8em;
+
+    position: relative;
+}
+header h1::before, header h1::after {
+    content: 'title header';
+    position: absolute;
+
+    height: 50px;
+    width: 100%;
+}
+header h1::after {
+    z-index: -1;
+    background-color: var(--corLaranja01);
+    bottom: 50%;
+    right: 30%;
+}
+header h1::before {
+    background-color: var(--corLaranja03);
+    top: 50%;
+    left: 30%;
+}
+
+/* main */
+main {
+    /* border: 1px solid #0f0; */
+
+    background-color: var(--corAmarela);
+    margin: 0 25px;
+    padding: 10px;
+
+    box-shadow: -10px 10px 0 1px #000;
+}
+main section {
+    /* border: 1px solid #00f; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+main section article {
+    /* border: 3px solid #f00; */
+    position: relative;
+}
+main section article h1 {
+    /* border: 2px solid #f0f; */
+
+    background-color: var(--corVerde01);
+    color: var(--corVerde02);
+    font-size: 2em;
+    /* font-variant: small-caps; */
+    position: absolute;
+}
+main section article p {
+    /* border: 2px solid #0ff; */
+
+    background-color: var(--corAzul01);
+    color: var(--corAzul02);
+
+    /* text-indent: 15px; */
+    text-align: justify;
+
+    margin: 26px 15px 5px;
+    padding: 10px 10px 10px;
+}
+main section article p::first-letter {
+    font-size: 1.3em;
+}

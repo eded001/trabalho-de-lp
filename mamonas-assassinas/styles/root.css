@@ -1,6 +1,11 @@
+@font-face {
+    font-family: "La Bamba";
+    src: url(../fonts/la-bamba-std.otf);
+}
+
 :root {
     /* FONTES */
-    --font-title-header: ;
+    --font-title-header: "La Bamba", serif;
     --font-title-article: ;
     --font-para-article: ;
 

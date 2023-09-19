@@ -6,39 +6,36 @@ body {
 
 /* header */
 header {
-    /* border: 1px solid #ff0; */
+    border: 1px solid #ff0;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 
     padding: 35px 0;
 }
 header h1 {
+    border: 1px solid #00f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+
     text-align: center;
+    text-transform: uppercase;
 
-    background-color: var(--corLaranja02);
-
+    font-family: var(--font-title-header);
     font-size: 2.8em;
-
-    position: relative;
 }
-header h1::before, header h1::after {
-    content: 'title header';
-    position: absolute;
-
-    height: 50px;
-    width: 100%;
+header .verde {
+    background-color: rgb(0, 197, 82);
+    color: #00963f;
 }
-header h1::after {
-    z-index: -1;
-    background-color: var(--corLaranja01);
-    bottom: 50%;
-    right: 30%;
+header .vermelho {
+    background-color: rgb(255, 27, 38);
+    color: #e30713;
 }
-header h1::before {
-    background-color: var(--corLaranja03);
-    top: 50%;
-    left: 30%;
+header img {
+    width: 200px;
 }
 
 /* main */

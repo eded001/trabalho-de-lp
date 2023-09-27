@@ -68,7 +68,7 @@ header #img::after {
 /* main */
 main {
     background-color: var(--corAmarela);
-    margin: 0 200px;
+    margin: 0 20%;
     margin-bottom: 30px;
     padding: 10px;
 
@@ -112,6 +112,7 @@ article img {
 
     float: left;
     margin-right: 15px;
+    margin-bottom: 10px;
 }
 article a {
     font-weight: bold;

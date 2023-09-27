@@ -4,18 +4,6 @@
     src: url(../fonts/JosefinSans-Thin.ttf);
 }
 
-/* animações */
-@keyframes sobe {
-    to {
-        padding-bottom: 2px;
-    }
-}
-@keyframes desce {
-    to {
-        padding-top: 2px;
-    }
-}
-
 /* variáveis */
 :root {
     /* fontes */
@@ -31,6 +19,8 @@
     --corAzul01: #07618b;
     --corAzul02: #1699db;
     --corAzul03: #009ae7;
+    --corAzulLink01: #1ab3ff;
+    --corAzulLink02: #137baf;
     --corVerdeLogo01: #00c552;
     --corVerdeLogo02: #00963f;
     --corVermelhaLogo01: #ff1e26;
@@ -44,4 +34,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--corVermelha);
 }

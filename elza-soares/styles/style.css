@@ -89,22 +89,51 @@ article {
 article h1 {
     background-color: var(--corVerde01);
     color: var(--corVerde02);
+
+    font-family: var(--titleArticle);
     font-size: 2em;
+
     padding: 2px 5px;
+
     position: absolute;
 }
 article p {
     background-color: var(--corAzul01);
     color: var(--corAzul02);
 
+    font-family: var(--paraArticle);
+
     text-align: justify;
 
     margin: 18px 15px 5px;
-    padding: 30px 10px 10px;
+    padding: 40px 10px 10px;
 }
 article p::first-letter {
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: bold;
+}
+article p[data-insp="p"] {
+    margin-bottom: 0!important;
+}
+article p[data-insp="p"] img {
+    float: right;
+
+    margin-left: 15px;
+}
+article ul {
+    background-color: var(--corAzul01);
+    color: var(--corAzul02);
+
+    margin: 0 15px 15px;
+    padding: 0 25px 10px;
+}
+article li {
+    list-style-type: '> ';
+
+    font-family: var(--paraArticle);
+}
+article li::marker {
+    color: rgb(114, 180, 255);
 }
 article img {
     border: 4px solid var(--corAzul03);

@@ -25,8 +25,8 @@
     --corVerdeLogo02: #00963f;
     --corVermelhaLogo01: #ff1e26;
     --corVermelhaLogo02: #e30713;
-    --cor01: ;
-    --cor02: ;
+    --titleArticle: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --paraArticle: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* configuração do documento HTML*/
